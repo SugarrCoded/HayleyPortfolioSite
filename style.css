@@ -1,0 +1,81 @@
+header img {
+    height:80px;
+    margin-left: 40px;
+}
+
+header {
+    color:black;
+    font-size: 30px;
+    box-shadow: 0 0 25px 0 black;
+    background-color:white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+    font-size: 30px;
+    margin: 20px;
+}
+
+@media (min-width: 769px) {
+    header {
+		float: right;
+	}
+
+	li {
+		display: inline-block;
+		margin-left: 15px;
+	}
+}
+
+body {
+    height: 125vh;
+    background-image: url(img/HexBG.jpg);
+    margin-top: 80px;
+    padding: 30px;
+}
+
+.h1 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.p1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    padding-top: 45px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 40px;
+    float: left;
+}
+
+footer {
+    background-color:white;
+    height:50px;
+    box-shadow: 0 0 25px 0 black;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
