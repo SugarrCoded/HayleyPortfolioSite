@@ -1,8 +1,10 @@
+/* Logo */
 header img {
     height:80px;
     margin-left: 40px;
 }
 
+/* White Header BG */
 header {
     color:black;
     font-size: 30px;
@@ -12,33 +14,46 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    height: 80px;
-    display: flex;
+    height: 12%;
     align-items: center;
+    display: flex;
 }
 
-header li a {
+/* Media Friendly Build */
+@media screen and (max-width: 815px) {
+
+}
+
+/* Getting rid of link underline */
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+/* Responsive NavBar */  
+nav {
     color: black;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
 }
 
-li {
+header li {
     display: inline-block;
     padding: 20px;
     font-size: 30px;
     margin: 20px;
-}
-
-@media (min-width: 769px) {
-    header {
-		float: right;
-	}
-
-	li {
-		display: inline-block;
-		margin-left: 15px;
-	}
 }
 
 body {
@@ -57,6 +72,7 @@ body {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 30px;
     padding-top: 45px;
+    text-align: center;
 }
 
 .img-circle {
