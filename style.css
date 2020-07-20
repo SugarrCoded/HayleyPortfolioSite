@@ -19,34 +19,30 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* Logo */
-.main-nav {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-}
-header img {
-    height:80px;
-    margin-right: auto;
 
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    width:40vw;
 }
 
 /* White Header BG */
-header {
+.main-nav {
     color:black;
-    font-size: 30px;
+    font-size: 30px ;
     box-shadow: 0 0 25px 0 black;
     background-color:white;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    height: 12%;
-}
-
-/* Media Friendly Build */
-@media screen and (max-width: 815px) {
-
+    height: 30%;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    text-align: center;
 }
 
 /* Getting rid of link underline */
@@ -67,31 +63,23 @@ a:link {
     text-decoration: none;
   }
 
-/* Responsive NavBar */  
-nav {
-    color: black;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-}
-
-header li {
-    display: inline-block;
-    font-size: 15px;
-    padding:10px;
-}
+  .nav-list {
+    padding-top: 10px;
+  }
 
 body {
-    height: 125vh;
     background-image: url(img/HexBG.jpg);
-    margin-top: 80px;
+    padding-top: 26%;
 }
 main {
-    padding: 30px;
+    padding: 80px;
 }
 
 .h1 {
     font-family: 'Raleway', sans-serif;
     text-align: center;
+    font-size: 33px;
+    padding-bottom: 10px;
 }
 
 .p1 {
@@ -106,8 +94,7 @@ main {
     display:block;
     margin-left: auto;
     margin-right: auto;
-    float: left;
-    padding-left: 20px;
+    width: 60%;
 }
 
 footer {
@@ -121,3 +108,48 @@ footer {
     right: 0;
 }
 
+@media screen and (min-width: 450px) {
+    header img {
+        float: left;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .main-nav {
+        text-align: right;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width: 450px) {
+    header img {
+        width: 180px;
+        padding-left: 20px;
+    }
+    .main-nav {
+        height: 17%;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .nav-list {
+     display: flex;
+     padding: 20px;
+     margin: 30px;
+     justify-content: space-evenly;
+    }
+    header img {
+        padding-left: 30px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .main-nav {
+        height: 120px;
+    }
+    header img {
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    
+}
