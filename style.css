@@ -43,6 +43,7 @@ header img {
     font-family: 'Raleway', sans-serif;
     display: inline-block;
     text-align: center;
+    z-index: 1;
 }
 
 /* Getting rid of link underline */
@@ -69,7 +70,7 @@ a:link {
 
 body {
     background-image: url(img/HexBG.jpg);
-    padding-top: 26%;
+    padding-top: 45%;
 }
 main {
     padding: 80px;
@@ -80,6 +81,7 @@ main {
     text-align: center;
     font-size: 33px;
     padding-bottom: 10px;
+    font-weight: bold;
 }
 
 .p1 {
@@ -97,6 +99,11 @@ main {
     width: 60%;
 }
 
+.carousel {
+    align-items: center;
+}
+
+
 footer {
     background-color:white;
     height:50px;
@@ -108,48 +115,3 @@ footer {
     right: 0;
 }
 
-@media screen and (min-width: 450px) {
-    header img {
-        float: left;
-    }
-}
-
-@media screen and (min-width: 500px) {
-    .main-nav {
-        text-align: right;
-        padding-top: 10px;
-    }
-}
-
-@media screen and (min-width: 450px) {
-    header img {
-        width: 180px;
-        padding-left: 20px;
-    }
-    .main-nav {
-        height: 17%;
-    }
-}
-
-@media screen and (min-width: 650px) {
-    .nav-list {
-     display: flex;
-     padding: 20px;
-     margin: 30px;
-     justify-content: space-evenly;
-    }
-    header img {
-        padding-left: 30px;
-    }
-}
-
-@media screen and (min-width: 800px) {
-    .main-nav {
-        height: 120px;
-    }
-    header img {
-        margin-left: 40px;
-        margin-top: 20px;
-    }
-    
-}
