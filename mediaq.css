@@ -1,14 +1,3 @@
-@media screen and (min-width: 500px) {
-    .main-nav {
-        text-align: right;
-        padding-top: 10px;
-    }
-    .dot {
-       width: 60px; ;
-       height: 60px; 
-    }
-}
-
 @media screen and (min-width: 450px) {
     header img {
         width: 180px;
@@ -26,6 +15,18 @@
         height: 65px; 
      }
 }
+
+@media screen and (min-width: 500px) {
+    .main-nav {
+        text-align: right;
+        padding-top: 10px;
+    }
+    .dot {
+       width: 60px; ;
+       height: 60px; 
+    }
+}
+
 
 @media screen and (min-width: 650px) {
     .nav-list {
@@ -96,6 +97,10 @@
         flex-direction: column;
         float: right;
         width: 70%;
+    }
+
+    .carouselIMG {
+        height: 660px;
     }
 
     footer {

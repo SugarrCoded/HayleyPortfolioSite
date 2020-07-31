@@ -12,7 +12,8 @@
 }
 
 .carouselIMG {
-    width: 100%;
+    width: auto;
+    height: 150px;
     margin: auto;
     transition: transform .5s, opacity .5s;
 }
@@ -25,10 +26,12 @@
   border-radius: 50%;
   text-decoration: none;
   cursor: pointer;
+  font-size: 10px;
 }
 
 .last {
   float: left;
+  left:;
 }
 
 .next {
